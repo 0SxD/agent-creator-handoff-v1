@@ -9,9 +9,8 @@ This file itself is a build-time reference and is NOT shipped in Track A.
 ## Section A: personal identifiers (private to Architect)
 
 ```
-Austin B. Green
-Austin Green
-@austin_green       (or whatever real GitHub handle, fill in via Q1)
+Sage
+@sage_handle        (or whatever real GitHub handle, fill in via Q1)
 sage_architect      (internal alias, do not expose)
 ```
 
@@ -51,22 +50,22 @@ SFF 2026
 
 ---
 
-## Section C: Mercor-related terms (legal hygiene)
+## Section C: evaluation platform-related terms (legal hygiene)
 
 User has explicitly stated NO references to this contracting work in any public artifact.
 
 ```
-Mercor
+evaluation platform
 mercor
 Pavilion
 pavilion
 Emporium
 emporium
-rubric criteria       (Mercor terminology; if used in public docs, use "rubric items" or "rubric cells" instead)
+rubric criteria       (evaluation platform terminology; if used in public docs, use "rubric items" or "rubric cells" instead)
 criterion tags
-autoreviewer          (Mercor terminology; use "automated review" in public)
+autoreviewer          (evaluation platform terminology; use "automated review" in public)
 factual_error
-hallucination_check   (only as Mercor-specific term; generic use of "hallucination" is fine)
+hallucination_check   (only as evaluation platform-specific term; generic use of "hallucination" is fine)
 antihack
 contextual_benchmarking
 trade_off_tag
@@ -74,10 +73,10 @@ durability_tag
 lab_test_tag
 spec_baseline_tag
 user_sentiment_tag
-grounding URLs        (Mercor terminology; use "source URLs" instead)
+grounding URLs        (evaluation platform terminology; use "source URLs" instead)
 ```
 
-Note: generic words like "rubric", "review", "trade-off" are fine standalone. The blocklist targets the Mercor-specific COMPOUND terms above, not generic vocabulary.
+Note: generic words like "rubric", "review", "trade-off" are fine standalone. The blocklist targets the evaluation platform-specific COMPOUND terms above, not generic vocabulary.
 
 ---
 
@@ -225,7 +224,7 @@ The receiving agent should harden this skeleton (regex patterns from Section F n
 
 ## Section K: false positive handling
 
-If a blocklist term has a legitimate use in public docs (e.g., the word "Mercor" in a citation to a Mercor public paper), the agent must:
+If a blocklist term has a legitimate use in public docs (e.g., the word "evaluation platform" in a citation to a evaluation platform public paper), the agent must:
 
 1. Surface the false positive to Architect via PEL gate
 2. Architect approves a per-file allowlist exception

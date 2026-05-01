@@ -115,7 +115,7 @@ The 6 skills can be authored in parallel by 6 sub-agents, each pointed at the co
 - **Sub-agent:** claude_sonnet_4_6, effort medium
 - **Action:** Write `skills/source_ingestion/SKILL.md`. DETECT / NORMALIZE / INTERROGATE / SCORE / ROUTE loop. Reference packet_shapes.md and quarantine_procedure.md from references/.
 - **Output:** `skills/source_ingestion/SKILL.md`
-- **Validation:** frontmatter valid, references resolve, no Mercor terminology
+- **Validation:** frontmatter valid, references resolve, no evaluation platform terminology
 - **Parallelizable:** YES
 
 ### Step 2.4 trinity_rubric
@@ -181,7 +181,7 @@ The 6 skills can be authored in parallel by 6 sub-agents, each pointed at the co
 
 ### Step 3.5 Packet shapes (packet_shapes.md)
 - **Prereq:** Phase 2 done
-- **Source:** user's uploaded packet-shapes.md (genericize, no Mercor refs, no internal codenames)
+- **Source:** user's uploaded packet-shapes.md (genericize, no evaluation platform refs, no internal codenames)
 - **Action:** Re-derive 3 packet shapes (conformant / adjacent / foreign) generically.
 - **Output:** `references/packet_shapes.md`
 - **Parallelizable:** YES
@@ -229,7 +229,7 @@ The 6 skills can be authored in parallel by 6 sub-agents, each pointed at the co
 - **Prereq:** Phase 1, Phase 2, Phase 3 done. PRIVACY_BLOCKLIST.md present.
 - **Action:** Implement the script per the pseudocode in PRIVACY_BLOCKLIST.md section J. Add: AGENTS.md syntactic check, SKILL.md frontmatter validation per agentskills.io spec (name regex, description length), license file presence check, CHANGELOG.md presence check.
 - **Output:** `scripts/verify_self.sh`, executable
-- **Validation:** runs cleanly on the in-progress repo and detects intentional test violations (insert "Mercor" in a test branch, verify it catches it)
+- **Validation:** runs cleanly on the in-progress repo and detects intentional test violations (insert "evaluation platform" in a test branch, verify it catches it)
 - **Parallelizable:** no, gates Phase 5
 
 ### Step 4.2 pack_text_bundle.sh

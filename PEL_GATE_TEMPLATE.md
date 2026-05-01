@@ -47,7 +47,7 @@ Evidence:
 
 - Track A only: ____ (yes | leakage detected | unsure)
 - Track B exclusion verified: ____ (yes | leakage detected)
-- Mercor exclusion verified: ____ (yes | leakage detected)
+- evaluation platform exclusion verified: ____ (yes | leakage detected)
 - Internal codename exclusion verified: ____ (yes | leakage detected)
 - 143_protocol rename applied: ____ (yes | partial | no)
 - sonnet rename applied: ____ (yes | partial | no)
