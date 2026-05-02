@@ -113,7 +113,7 @@ Defer to Track B: ce_loop full implementation, hostile_audit, ML backend impl, N
 **Track A files MUST NOT contain:**
 - The user's personal name (unless Q1 = a)
 - Any internal project codename (HumanX, FateX, SageX, 0sXai, WikiLLM, OpenBrain, etc.)
-- evaluation platform / Pavilion / Emporium references
+- evaluation platform / [redacted_term_2] / [redacted_term_3] references
 - The string "143_protocol" (renamed to system_directive)
 - The string "sonnet" as a model identifier (renamed to sub_agent)
 - Real names of internal collaborators

@@ -55,12 +55,10 @@ SFF 2026
 User has explicitly stated NO references to this contracting work in any public artifact.
 
 ```
-evaluation platform
-mercor
-Pavilion
-pavilion
-Emporium
-emporium
+[redacted_term_1]
+[redacted_term_2]
+[redacted_term_3]
+[redacted_term_4]
 rubric criteria       (evaluation platform terminology; if used in public docs, use "rubric items" or "rubric cells" instead)
 criterion tags
 autoreviewer          (evaluation platform terminology; use "automated review" in public)
@@ -77,6 +75,7 @@ grounding URLs        (evaluation platform terminology; use "source URLs" instea
 ```
 
 Note: generic words like "rubric", "review", "trade-off" are fine standalone. The blocklist targets the evaluation platform-specific COMPOUND terms above, not generic vocabulary.
+Note: specific platform names in this section are stored as opaque placeholders ([redacted_term_N]) to avoid naming the platform in a public artifact. The architect holds the mapping privately.
 
 ---
 
